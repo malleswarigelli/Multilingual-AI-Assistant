@@ -5,7 +5,7 @@ from src.helper import voice_input, llm_model_object, text_to_speech
 
 
 def main():
-    st.title("Multilingual AI Assistant")
+    st.title("Multilingual AI Assistant 🤖")
     
     # creating a button
     if st.button("Ask me anything"):
