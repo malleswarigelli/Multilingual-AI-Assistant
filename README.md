@@ -1,7 +1,9 @@
 # Multilingual-AI-Assistant
 
 
-
+# Crete GOOGLE_API_KEY from Genimi api link
+- https://deepmind.google/technologies/gemini/#introduction
+- Add GOOGLE_API_KEY to .env
 
 # Git commands
 - git add .
