@@ -1,0 +1,18 @@
+# Multilingual AI assistant
+
+- using gemini model (gemini API)
+
+use case:
+when user send some prompt/input (text, audio, image)
+    - in basic/free chatGPT, we can only pass text as input --> o/p text
+    - in paid chatGPT version, we can pass audio, image inupts --> but o/p text (not able to generate other types of o/p)
+            - need 3rd party packages like GPT3.4 etc to get desired o/p
+
+    - Multimodel (like LLM) we can i/p text, img, autio --> 0/p audio, img, text
+    - in our case, using LLM (we are creating our own Virtual AI assistant)  can take i/p Audio --> generate o/p Audio (like Alexa, siri, google assistant)
+       Build Virtual AI assistant application inputs Audio and o/p Audio
+
+1) Get audio input
+      speech recognition module (PyPI package) -> captures speech
+      Method: recognizer from speech recognition (sr.Recognizer())
+      it opens microphone, captures audio
