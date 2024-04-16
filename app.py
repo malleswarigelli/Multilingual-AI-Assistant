@@ -27,4 +27,5 @@ def main():
 
 # call the main method
 if __name__=="__main":
+    main()
     
