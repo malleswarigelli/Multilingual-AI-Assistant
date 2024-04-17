@@ -1,5 +1,6 @@
 # Multilingual AI assistant
 
+By leveraging LLM, Build Virtual AI assistant application inputs Audio and o/p Audio and deploy to AWS EC2
 - using gemini model (gemini API)
 
 use case:

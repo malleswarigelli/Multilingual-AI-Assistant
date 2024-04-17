@@ -161,3 +161,4 @@ cython_debug/
 multilingual
 .env
 multilingual_assistant.egg-info
+tips.txt
